@@ -1,0 +1,23 @@
+
+╭─── Claude Code v2.0.46 ──────────────────────────────────────────────────────╮
+│                                      │ Tips for getting started              │
+│             Welcome back!            │ Run /init to create a CLAUDE.md file… │
+│                                      │ Note: You have launched claude in yo… │
+│                ▐▛███▜▌               │ ───────────────────────────────────── │
+│               ▝▜█████▛▘              │ Recent activity                       │
+│                 ▘▘ ▝▝                │ No recent activity                    │
+│                                      │                                       │
+│   minimax-m2.7 · API Usage Billing   │                                       │
+│            C:\Users\dell             │                                       │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+> 你好 
+
+● 你好！有什么我可以帮助你的吗？
+
+> 我叫杨明璇 
+
+● 你好，杨明璇！很高兴认识你。有什么软件工程方面的任务我可以帮你完成吗？
+
+
+
