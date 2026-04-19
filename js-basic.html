@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript基础知识练习</title>
+    <style>
+        body { font-family: "微软雅黑", sans-serif; max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
+        h1, h2 { color: #2c3e50; }
+        .box { background: #f8f9fa; padding: 1rem; border-radius: 8px; margin: 1rem 0; }
+    </style>
+</head>
+<body>
+    <h1>JavaScript基础知识练习页面</h1>
+    <p>请按 F12 打开浏览器控制台，查看代码运行结果</p >
+
+    <script>
+        // ======================
+        // 1. 变量定义与变量类型
+        // ======================
+        console.log("===== 1. 变量定义与变量类型 =====");
+
+        // 字符串类型
+        let studentName = "小明";
+        console.log("姓名:", studentName, "| 类型:", typeof studentName);
+
+        // 数字类型（整数/浮点数）
+        let age = 20;
+        let height = 1.75;
+        console.log("年龄:", age, "| 类型:", typeof age);
+        console.log("身高:", height, "| 类型:", typeof height);
+
+        // 布尔类型
+        let isStudent = true;
+        console.log("是否在校学生:", isStudent, "| 类型:", typeof isStudent);
+
+        // 空值/未定义类型
+        let score = null;
+        let hobby;
+        console.log("分数:", score, "| 类型:", typeof score);
+        console.log("爱好:", hobby, "| 类型:", typeof hobby);
+
+        // ======================
+        // 2. 表达式与运算符
+        // ======================
+        console.log("\n===== 2. 表达式与运算符 =====");
+        let a = 10;
+        let b = 3;
+
+        // 算术运算
+        console.log("加法：", a + b);
+        console.log("减法：", a - b);
+        console.log("乘法：", a * b);
+        console.log("除法：", a / b);
+        console.log("取余：", a % b);
+
+        // 比较运算
+        console.log("a > b：", a > b);
+        console.log("a === 10：", a === 10);
+
+        // 逻辑运算
+        let passExam = true;
+        let passAttendance = false;
+        console.log("是否同时通过考试和考勤：", passExam && passAttendance);
+        console.log("是否通过考试或考勤：", passExam || passAttendance);
+
+        // ======================
+        // 3. 流程控制（条件判断 + 循环）
+        // ======================
+        console.log("\n===== 3. 流程控制 =====");
+
+        // 条件判断：成绩等级
+        let examScore = 88;
+        console.log("考试成绩：", examScore);
+        if (examScore >= 90) {
+            console.log("成绩等级：优秀");
+        } else if (examScore >= 70) {
+            console.log("成绩等级：良好");
+        } else if (examScore >= 60) {
+            console.log("成绩等级：及格");
+        } else {
+            console.log("成绩等级：不及格");
+        }
+
+        // 循环：打印1-5
+        console.log("循环打印1-5：");
+        for (let i = 1; i <= 5; i++) {
+            console.log("循环第", i, "次");
+        }
+
+        // ======================
+        // 4. 函数定义与调用
+        // ======================
+        console.log("\n===== 4. 函数定义与调用 =====");
+
+        // 定义一个计算两数和的函数
+        function add(x, y) {
+            return x + y;
+        }
+
+        // 调用函数
+        let sumResult = add(15, 25);
+        console.log("15 + 25 =", sumResult);
+
+        // 定义一个判断成年的函数
+        function isAdult(ageNum) {
+            return ageNum >= 18 ? "已成年" : "未成年";
+        }
+        console.log("年龄16岁：", isAdult(16));
+        console.log("年龄20岁：", isAdult(20));
+
+        console.log("\n===== 所有练习代码执行完毕 =====");
+    </script>
+</body>
+</html>
